@@ -11,7 +11,7 @@ from mobile_vit_v2 import build_MobileViT_v2
 
 
 # Load the labels (ImageNet class names)
-os.system("!wget https://raw.githubusercontent.com/pytorch/hub/master/imagenet_classes.txt")
+os.system("!wget -q -O imagenet_classes.txt https://raw.githubusercontent.com/pytorch/hub/master/imagenet_classes.txt")
 with open('imagenet_classes.txt') as f:
     labels = [line.strip() for line in f.readlines()]
 
