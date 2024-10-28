@@ -20,8 +20,8 @@ python test.py
 This will:
    - Sets the Keras 3 backend.
    - Downloads an example image from the Web.
-   - Makes three different MobileViTv2 models with width multipliers α=0.5,1,2 and downloads the pre-trained weights.
-   - Test these three models on the example image.
+   - Makes three different MobileViTv2 models with width multipliers α = 0.5, 1, 2 and downloads the pre-trained weights.
+   - Tests these three models on the example image.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
