@@ -5,9 +5,9 @@ from keras import Model, Input
 from keras.layers import GlobalAveragePooling2D, Dropout, Dense
 from keras.utils import get_file
 
-from .configs import get_mobile_vit_v2_configs
-from .utils.base_layers import ConvLayer, InvertedResidualBlock
-from .utils.mobile_vit_v2_block import MobileViT_v2_Block
+from configs import get_mobile_vit_v2_configs
+from utils.base_layers import ConvLayer, InvertedResidualBlock
+from utils.mobile_vit_v2_block import MobileViT_v2_Block
 
 WEIGHTS_RELEASE_TAG_VERSION = 0.5
 WEIGHTS_URL = "https://github.com/veb-101/keras-vision/releases/download/v{weight_release_tag}/{file_name}"

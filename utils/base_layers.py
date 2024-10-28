@@ -1,6 +1,6 @@
 from typing import Union
 from keras.layers import Layer, Conv2D, BatchNormalization, Activation, DepthwiseConv2D, Identity, ZeroPadding2D
-from .utils import make_divisible
+from utils.utils import make_divisible
 
 
 class ConvLayer(Layer):

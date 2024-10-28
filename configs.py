@@ -1,6 +1,6 @@
 from typing import Optional
 from dataclasses import dataclass
-from .utils.utils import bound_fn, make_divisible
+from utils.utils import bound_fn, make_divisible
 
 
 @dataclass

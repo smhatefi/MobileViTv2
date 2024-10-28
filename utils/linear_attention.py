@@ -1,6 +1,6 @@
 import keras.ops as kops
 from keras.layers import Layer, Dropout
-from .base_layers import ConvLayer
+from utils.base_layers import ConvLayer
 
 
 class LinearSelfAttention(Layer):

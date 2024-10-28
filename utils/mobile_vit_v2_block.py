@@ -2,8 +2,8 @@ from math import ceil
 import keras
 import keras.ops as kops
 from keras.layers import Layer, DepthwiseConv2D, Dropout, BatchNormalization, Activation, GroupNormalization
-from .base_layers import ConvLayer
-from .linear_attention import LinearSelfAttention as LSA
+from utils.base_layers import ConvLayer
+from utils.linear_attention import LinearSelfAttention as LSA
 
 
 class Transformer(Layer):
